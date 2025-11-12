@@ -1,8 +1,6 @@
 package com.smu.l03_jpa_join.repository;
 
 import com.smu.l03_jpa_join.entity.Emp;
-import jakarta.persistence.EntityManager;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

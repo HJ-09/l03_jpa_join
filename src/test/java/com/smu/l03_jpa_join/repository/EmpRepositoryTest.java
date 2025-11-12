@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest // 스프링 빈 팩토리를 생성해서 테스트
 class EmpRepositoryTest {
     //Component : 스프링 빈 팩토리에서 관리하는 객체
