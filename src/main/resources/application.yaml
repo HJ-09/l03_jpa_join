@@ -1,0 +1,23 @@
+
+spring:
+  application:
+    name: l03_jpa_join
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1521/XEPDB1
+    username: scott
+    password: tiger
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        highlight_sql: true
+
+server:
+  port: 5555
+
+
+
+# yaml :xml(?????)?? ???? ??? ????? <> ??? ??
+# ul>li>a { color:red}
+# <ul><li><a></a>...
